@@ -1,0 +1,20 @@
+html, body {
+    background: linear-gradient(#e292e2, #9198e5);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.importantStuff {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+}
+.caption {
+    height: 0%;
+    background: linear-gradient(0.25turn, #dfb33a, #f69d3c);
+    border-radius: 15px;
+}
+.squid {
+    height: 50%;
+}
