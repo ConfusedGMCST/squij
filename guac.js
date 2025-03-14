@@ -1,13 +1,14 @@
 class patty {
     constructor(pattyX, pattyY, speed, sprite) {
-        this.x = x;
-        this.y = y;
+        this.x = pattyX;
+        this.y = pattyY;
+        this.speed = speed;
         this.sprite = sprite;
     }
     pattyDrop() {
-        if(this.y < height - 80){
-            image(this.sprite, 0, 0, this.x, this.y);
-            this.y += speed;
+        if(this.y < height - 40){
+            image(this.sprite, this.x, this.y, 40, 40);
+            this.y += this.speed;
         }
     }
 } 
