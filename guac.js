@@ -1,3 +1,4 @@
+//makes the patty and has the function to make the patty fall
 class patty {
     constructor(pattyX, pattyY, speed, sprite) {
         this.x = pattyX;

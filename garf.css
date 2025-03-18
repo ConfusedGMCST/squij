@@ -1,3 +1,9 @@
+.iansui-regular {
+    font-family: "Iansui", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
 html, body {
     background: linear-gradient(#e292e2, #9198e5);
     margin: 0;
@@ -17,4 +23,17 @@ html, body {
 }
 .squid {
     height: 50%;
+}
+.gabriel {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+    font-family: Iansui;
+}
+.gabriel, h1 {
+    padding-right: 2%;
+}
+.gabriel, p {
+    padding-right: 2%;
 }
