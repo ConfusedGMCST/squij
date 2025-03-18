@@ -1,1 +1,1 @@
-https://confusedgmcst.github.io/squij/
+https://confusedgmcst.github.io/squij/guh.html
